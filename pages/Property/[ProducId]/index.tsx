@@ -5,5 +5,3 @@ const PropertyDetail = () => {
   const { productId } = router.query;
   return <div>Property Detail {productId}</div>;
 };
-
-export default PropertyDetail

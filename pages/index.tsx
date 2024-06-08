@@ -22,6 +22,9 @@ const Home: NextPage = () => {
           <Stack>
             <Stack className='container'>Top Agents</Stack>
           </Stack>
+          <Stack>
+            <Stack className='container'>Event</Stack>
+          </Stack>
         </Stack>
       </Stack>
     </>
