@@ -26,7 +26,7 @@ const PropertyCard = () => {
           </Box>
         }
         <Box className={"price-box"}>
-          <Typography>$50000</Typography>
+          <Typography>$250000</Typography>
         </Box>
       </Stack>
       <Stack className='bottom'>
@@ -38,7 +38,7 @@ const PropertyCard = () => {
                 query: { id: "test1234lsfj" },
               }}
             >
-              <Typography>Apartments</Typography>
+              <Typography>Kingstone apartments</Typography>
             </Link>
           </Stack>
           <Stack className='address'>
@@ -71,7 +71,7 @@ const PropertyCard = () => {
               <IconButton color={"default"}>
                 <FavoriteIcon color='primary' />
               </IconButton>
-              <Typography className='view-cnt'>50</Typography>
+              <Typography className='view-cnt'>20</Typography>
             </Stack>
           }
         </Stack>

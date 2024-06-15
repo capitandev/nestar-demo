@@ -15,7 +15,7 @@ import {
 } from "@mui/material";
 
 const Filter = () => {
-  const propertySquare = [0, 25, 50, 75, 100, 125, 150, 200, 300, 500, 600, 700, 800];
+  const propertySquare = [0, 25, 50, 75, 100, 125, 150, 200, 300, 500];
   const [searchText, setSearchText] = useState<string>("");
   const [showMore, setShowMore] = useState<boolean>(false);
   const [propertyPrice, setPropertyPrice] = useState({
@@ -115,7 +115,7 @@ const Filter = () => {
           <Button
             sx={{
               borderRadius: 0,
-              border: "1px solid #b9b9b9",
+              border: "2px solid #181A20",
             }}
           >
             4
@@ -152,7 +152,7 @@ const Filter = () => {
           <Button
             sx={{
               borderRadius: 0,
-              border: "1px solid #b9b9b9",
+              border: "2px solid #181A20",
             }}
           >
             2
